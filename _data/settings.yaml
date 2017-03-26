@@ -1,0 +1,110 @@
+#-------------------------------
+# General Site Settings
+
+title: Beautiful Theme
+description: Designer // Artist // Painter
+email: mytheme435@gmail.com
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Clients, url: '#clients'}
+- {name: Contact, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Provide a description for your website to make it visible to search engines.'
+  rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+  rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+blurb: >
+  **Born into a privileged English household in 1882, author<br><strong>Adeline Virginia Woolf</strong> was raised by free-thinking parents.She began writing as a young girl and published her first novel, The Voyage Out, in 1915.
+  She wrote modernist classics including Mrs. Dalloway, To the Lighthouse and Orlando, as well as pioneering feminist works, A Room of One's Own and Three Guineas.
+
+skills:
+- {name: Communication, value: '9'}
+- {name: Organization, value: '7'}
+- {name: Learning, value: '10'}
+- {name: Teaching, value: '6'}
+- {name: Planning, value: '10'}
+- {name: Visual Design, value: '5'}
+- {name: UX Design, value: '8'}
+- {name: Programming, value: '6'}
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: TYPO International Design Talks, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: City-IN website concept, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Crispy Icons, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Flat Mobile UI/UX Concept, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: Fresh It Up, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: Timeline Page, folder: 'proj-6', file: 'work/proj-6.html'}
+- {name: Weather Dashboard, folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: Stripes & Co, folder: 'proj-8', file: 'work/proj-8.html'}
+
+
+
+
+#-------------------------------
+# Clients Section
+
+clients:
+- {avatar: 'face1.jpg',
+  name: 'Baby Cat-Kitty Cat',
+  title: 'Director of Design, Toronto',
+  quote: '<p><strong>Ut enim ad minima veniam.</strong><br>Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>',
+  logo: 'logo1.png'}
+- {avatar: 'face2.jpg',
+  name: 'Pretty Baby Swan',
+  title: 'Eater of Salad, Rome Int.',
+  quote: '<p><strong>Lorem ipsum dolor</strong>sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>',
+  logo: 'logo2.png'}
+- {avatar: 'face3.jpg',
+  name: 'Katty-Blossom',
+  title: 'Social Media Kitty-Girl, Athens Int.',
+  quote: '<p><strong>Duis aute irure dolor</strong> in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>',
+  logo: 'logo3.png'}
+- {avatar: 'face4.jpg',
+  name: 'Bimba-Timba',
+  title: 'VIP of country, Sorem Dorem LCC.',
+  quote: '<p><strong>Nemo enim ipsam voluptatem</strong> quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>',
+  logo: 'logo4.png'}
+
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'twitter', link: 'http://twitter.com/devtipsshow'}
+- {icon: 'dribbble', link: 'https://dribbble.com/travisneilson'}
+- {icon: 'behance', link: 'https://www.behance.net/travisneilson'}
+- {icon: 'youtube', link: 'https://www.youtube.com/DevTipsForDesigners'}
+- {icon: 'pinterest', link: 'https://www.pinterest.com/'}
+- {icon: 'github', link: 'https://github.com/'}
+- {icon: 'instagram', link: 'https://www.instagram.com/?hl=en'}
+
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'

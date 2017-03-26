@@ -1,0 +1,167 @@
+.section-clients
+	position: relative
+
+
+.clients-belt
+	width: 100%
+	position: relative
+	
+	.client-unit
+		max-width: 750px
+		margin: 0 0 50px -375px
+		+position(absolute, 0px null null 50%)
+		z-index: 1
+		display: none
+		
+
+
+		&.active-client
+			+display(flex)
+			@extend %#{$animation}
+
+
+
+
+		.client-face
+			min-width: 300px
+			text-align: center
+
+			.client-name
+				display: block
+
+			.client-title
+				font-style: normal
+				font-size: 12px
+				color: #999
+				
+				
+
+
+
+		.client-content
+			font-family: Open Sans
+			font-style: normal
+			font-weight: 300
+			font-size: 17px
+			line-height: 36px
+			letter-spacing: 1px
+			color: #5b5b5b
+			margin-top: -13px
+			font-style: normal
+			position: relative
+			+transition(800ms)
+
+			strong
+				color: #282828
+
+
+.clients-logo
+	position: relative
+	max-width: 750px
+	margin: 350px auto 100px
+	+display(flex)
+	+align-items(flex-end)
+	+justify-content(space-around)
+
+
+	.client-logo
+		cursor: pointer
+		margin: 0 20px
+		padding-bottom: 10px
+		border-bottom: 4px solid transparent
+		opacity: 0.5
+
+		&.active-client
+			border-bottom: 4px solid $accent-dark
+			opacity: 1
+
+
+.client-quote-mark
+	+position(absolute, -18px null null -15px)
+	+size(60px)
+	z-index: -1
+	opacity: 0.5
+
+	path 
+		fill: $accent
+
+//controls
+
+.client-controls
+	+position(absolute, 0px 0px 0px 0px )
+	
+	
+	>div
+		+size(40px)
+		margin-top: -20px
+
+	.client-control-next
+		+position(absolute, 50% 10px null null)
+		cursor: pointer
+
+		path 
+			fill: $accent
+
+
+
+	.client-control-prev
+		+position(absolute, 50% null null 10px)
+		cursor: pointer
+
+		path 
+			fill: $accent
+
+//client-mobile-nav
+
+.clients-mobile-nav
+	text-align: center
+	display: none
+
+	span 
+		cursor: pointer
+		display: inline-block
+		+size(16px)
+		border-radius: 50%
+		border: solid 2px $bgcolor
+		margin: 0px 10px 
+
+
+		&.active-client
+			border-color: $accent-dark
+
+
+@media (max-width: 750px)
+	.clients-logo
+		display: none
+
+
+	.client-controls
+		display: none
+
+	.clients-belt
+		overflow: hidden
+
+		.client-unit.active-client
+			display: block
+			position: relative
+			margin-left: 0px
+			left: auto
+
+			.client-face
+				margin-bottom: 20px
+
+			.client-content
+				padding: 0px 30px 
+				max-width: 400px
+				margin: 0px auto
+
+			.client-quote-mark
+				left: 15px
+
+	.clients-mobile-nav
+		display: block
+
+		
+
+
+
